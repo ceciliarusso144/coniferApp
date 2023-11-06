@@ -27,16 +27,19 @@
                                 <option value="Fecha">Fecha</option>
                                 <option value="Controladora">Controladora</option>
                             </select>
-                            <div></div>
+                            <div>
+                                <label for="TipoBusqueda">Ingrese </label>
+                                <span id="criterioSeleccionado"></span>
+                            </div>
                             <input type="text" name="cadenaBusqueda" value="@ViewData["CurrentFilter"]" />
                             <input type="submit" value="Buscar" class="btn btn-sm btn-success" />
                         </div>
                     </div>
                 </div>
             </form>
-                
-            
-            
+
+
+
         </div>
     </div>
 </div>
@@ -58,7 +61,7 @@
                 @Html.ActionLink("Línea", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenLinea })
             </th>
             <th>
-                @Html.ActionLink("Coche", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenCoche }) 
+                @Html.ActionLink("Coche", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenCoche })
             </th>
             <th>
                 Legajo
@@ -124,9 +127,22 @@
     Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount  -  Elementos totales: @Model.TotalItemCount
 
     @Html.PagedListPager(Model, page => Url.Action("ControlarProduccion",
-        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+            new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
 </div>
 
+<script>
+    // Agrega un controlador de evento para el cambio en el select
+    document.getElementById("TipoBusqueda").addEventListener("change", function() {
+        var select = document.getElementById("TipoBusqueda");
+        var criterioSeleccionado = document.getElementById("criterioSeleccionado");
+
+        // Obtén el valor seleccionado
+        var seleccion = select.options[select.selectedIndex].text;
+
+        // Actualiza el contenido del span
+        criterioSeleccionado.textContent = seleccion;
+    });
+</script>
 
 
 
