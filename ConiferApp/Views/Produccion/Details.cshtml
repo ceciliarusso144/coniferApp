@@ -1,0 +1,91 @@
+﻿@model ConiferApp.Models.ProduccionDetalle
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProduccionDetalle</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idproduccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idproduccion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.linea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.linea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.coche)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.coche)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.legajo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.legajo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.horainicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.horainicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.horafin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.horafin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.controladora)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.controladora)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vueltas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vueltas)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "ControlarProduccion")
+</p>

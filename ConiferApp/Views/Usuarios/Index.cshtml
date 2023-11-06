@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ConiferApp.Models.Usuarios>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>LISTA DE USUARIOS DEL SISTEMA</h2>
+<br />
+
+<p>
+    @using (Html.BeginForm())
+    {
+        <div class="row">
+            <div class="col-md-6">
+                @Html.ActionLink("Registrar nuevo usuario", "Create") | <a href="@Url.Action("Inicio", "Administracion")">Volver a administración</a>
+            </div>
+            <div class="col-md-4">
+                @Html.Editor("filtro", new { htmlAttributes = new { @class = "form-control", @placeholder = "Buscar por legajo" } })
+            </div>
+            <div class="col-md-2">
+                <input type="submit" value="Buscar" class="btn btn-outline-primary" />
+            </div>
+        </div>
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DNI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Legajo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        if (item.Activo == true)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DNI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Legajo)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.IdUsuario }) |
+                    @Html.ActionLink("Detalle", "Details", new { id = item.IdUsuario }) |
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.IdUsuario })
+                </td>
+            </tr>
+        }
+    }
+
+</table>
+<br />
+@if (ViewData["Resultado"] != null)
+{
+    @Html.ActionLink("Mostrar todos", "Index")
+}

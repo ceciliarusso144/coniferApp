@@ -1,0 +1,61 @@
+﻿@model ConiferApp.Models.Usuario
+
+@{
+    ViewBag.Title = "Usuario Logueado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>@ViewBag.Message</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Modificar contraseña</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <form action="@Url.Action("ULogueado","Home")" method="post">
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <p>Modifique su clave: </p>
+                <input type="password" name="Clave" class="form-control input_pass" value="" placeholder="Nueva contraseña">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <p>Reafirme su nueva clave: </p>
+                <input type="password" name="ConfirmarClave" class="form-control input_pass" value="" placeholder="Confirmar contraseña">
+            </div>
+        </div>
+
+        @if (ViewData["Mensaje"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewData["Mensaje"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (ViewData["Correcto"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["Correcto"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <br />
+                <br />
+                <input type="submit" value="Guardar cambios" class="btn btn-outline-success" /> |
+                @Html.ActionLink("Volver a inicio", "Index")
+            </div>
+        </div>
+    </form>
+    </div>
+    }
+

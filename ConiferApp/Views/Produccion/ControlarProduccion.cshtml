@@ -1,0 +1,139 @@
+﻿
+
+@model PagedList.IPagedList<ConiferApp.Models.ProduccionDetalle>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "ControlarProduccion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4 class="text-center">Listado de producción</h4>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col col-md-auto">
+            <form asp-action="ControlarProduccion" method="get">
+                <div class="form-group">
+                    <div class="row">
+                        buscar por:
+                        <div>
+                            <select class="form-control" name="TipoBusqueda" id="TipoBusqueda">
+                                <option selected>Seleccione Criterio</option>
+                                <option value="Legajo">Legajo</option>
+                                <option value="Coche">Coche</option>
+                                <option value="Linea">Linea</option>
+                                <option value="Fecha">Fecha</option>
+                                <option value="Controladora">Controladora</option>
+                            </select>
+                            <div>Formato Fecha: dd/mm/aaaa</div>
+                            <input type="text" name="cadenaBusqueda" value="@ViewData["CurrentFilter"]"/>
+                        </div>
+                        <input type="submit" value="Buscar" class="btn btn-sm btn-success" /> 
+                    </div>
+                </div>
+            </form>
+                
+            
+            
+        </div>
+    </div>
+</div>
+
+<hr />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Id Producción
+            </th>
+            <th>
+                Fecha
+            </th>
+            <th>
+                @Html.ActionLink("Linea", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenLinea })
+            </th>
+            <th>
+                @Html.ActionLink("Coche", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenCoche }) 
+            </th>
+            <th>
+                Legajo
+            </th>
+            <th>
+                Hora Inicio
+            </th>
+            <th>
+                Hora Fin
+            </th>
+            <th>
+                Controladora
+            </th>
+            <th>
+                Vueltas
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelitem => item.id)
+                </td>
+                <td>
+                    @item.idproduccion
+                </td>
+                <td>
+                    @item.fecha
+                </td>
+                <td>
+                    @item.linea
+                </td>
+                <td>
+                    @item.coche
+                </td>
+                <td>
+                    @item.legajo
+                </td>
+                <td>
+                    @item.horainicio
+                </td>
+                <td>
+                    @item.horafin
+                </td>
+                <td>
+                    @item.controladora
+                </td>
+                <td>
+                    @item.vueltas
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-secondary" @Html.ActionLink("Detalles", "Details", new { id = item.id })></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<br />
+
+<div>
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount  -  Elementos totales: @Model.TotalItemCount
+
+    @Html.PagedListPager(Model, page => Url.Action("ControlarProduccion",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+</div>
+
+
+
+
+

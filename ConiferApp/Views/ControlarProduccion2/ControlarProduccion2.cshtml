@@ -1,0 +1,182 @@
+﻿@{
+   ViewBag.Title = "ControlarProduccion2";
+   Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Controlar Producción</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        @*<img height="200" width="580" src="~/Recursos/Excel-BD.jpg" />*@
+        <br />
+        <hr />
+        <div class="row">
+            <div class="col-md-5">
+                <label for="fecha">Está s Por Controlar la Producción del dia:</label>
+                <input name="fecha" type="date" placeholder="01/01/2022" required />
+
+            </div>
+            <div class="col-md-4">
+                <input type="submit" id="Controlar" name="Controlar" value="Controlar" class="btn btn-outline-success" />
+            </div>
+            <br />
+            @if (ViewData["Error"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <b> @ViewData["Error"]</b>
+                    <ol>
+                        @if (ViewData["ErrorProduccionCerrada"] != null)
+                        {
+                            <li>@ViewData["ErrorProduccionCerrada"]</li>
+                        }
+
+                        @if (ViewData["ErrorArchivoYaExiste"] != null)
+                        {
+                            <li>@ViewData["ErrorArchivoYaExiste"]</li>
+                        }
+
+                        @if (ViewData["ErrorCoches"] != null)
+                        {
+                            <li>@ViewData["ErrorCoches"]</li>
+                        }
+
+                        @if (ViewData["ErrorZonas"] != null)
+                        {
+                            <li>@ViewData["ErrorZonas"]</li>
+                        }
+
+                        @if (ViewData["ErrorLegajos"] != null)
+                        {
+                            <li>@ViewData["ErrorLegajos"]</li>
+                        }
+
+                        @if (ViewData["ErrorLineas"] != null)
+                        {
+                            <li>@ViewData["ErrorLineas"]</li>
+                        }
+
+                        @if (ViewData["ErrorBoletos"] != null)
+                        {
+                            <li>@ViewData["ErrorBoletos"]</li>
+                        }
+                    </ol>
+
+                </div>
+            }
+
+            @if (ViewData["Exito"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["Exito"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" id="Cerrar" name="Cerrar" value="Cerrar Producción" class="btn btn-outline-success" />
+                </div>
+
+            }
+            @if (ViewData["ExitoNoHayRegistrosParaControlar"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["ExitoNoHayRegistrosParaControlar"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" id="Cerrar" name="Cerrar" value="Cerrar Producción" class="btn btn-outline-success" />
+                </div>
+
+            }
+
+
+
+
+            @if (ViewData["ExitoCerrarProducción"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["ExitoCerrarProducción"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+
+            }
+            @* @if (ViewData["Error1"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["Error1"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @* @if (ViewData["ExitoCambioDeZona"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["ExitoCambioDeZona"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (ViewData["AperturaChofer"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["AperturaChofer"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (ViewData["2daAperturaChofer"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["2daAperturaChofer"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+
+        @if (ViewData["CierreChofer"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["CierreChofer"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+
+        @if (ViewData["ExitoCambioDeLinea"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["ExitoCambioDeLinea"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (ViewData["ExitoTransaccionesEconomicas"] != null)
+        {
+            <div class="alert alert-success" role="alert">
+                @ViewData["ExitoTransaccionesEconomicas"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+
+        @if (ViewData["ExitoCambiosDeZona"] != null)
+        {
+            <div class="col-md-3">
+                <input type="submit" value="Cargar Archivo" class="btn btn-outline-success" />
+            </div>
+
+
+           // <div class="alert alert-success" role="alert">
+           //     @ViewData["ExitoCambiosDeZona"]
+           //     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+           // </div>
+        }*@
+
+        </div>
+    </div>
+    <br />
+    <a href="@Url.Action("Inicio", "Consolidado")">Volver a administración</a>
+</form>
+
+

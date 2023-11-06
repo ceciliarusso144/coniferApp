@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Importación";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Importar Líneas</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <img height="200" width="580" src="~/Recursos/Excel-BD.jpg" />
+        <br />
+        <hr />
+        <div class="row">
+            <div class="col-md-5">
+                <input name="file" type="file" required />
+            </div>
+            <div class="col-md-4">
+                <input type="submit" value="Importar" class="btn btn-outline-success" />
+            </div>
+            <br />
+            @if (ViewData["Error"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewData["Error"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (ViewData["Exito"] != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewData["Exito"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+        </div>
+    </div>
+    <br />
+    <a href="@Url.Action("Inicio", "Administracion")">Volver a administración</a>
+</form>
+

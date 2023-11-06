@@ -1,0 +1,24 @@
+﻿@using ConiferApp.Controllers
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="utf-8" />
+   
+    <title>@ViewBag.Title ConiferApp</title>
+    <link href="~/Recursos/logoConiferal.png">
+    <link rel="shortcut icon" href="~/Recursos/faviconAPP.ico" />
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ConiferApp</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

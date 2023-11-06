@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Administración del Sistema</h2>
+<br />
+<div class="row">
+
+    <div class="col-md-6">
+        <p><a href="@Url.Action("Index", "Usuarios")">Administración de Usuarios</a></p>
+        <p><a href="@Url.Action("Index", "Usuarios")">Administración de Roles</a></p>
+    </div>
+
+    <div class="col-md-6">
+        <p><a href="@Url.Action("ImportarLineas", "Administracion")">Importar Líneas</a></p>
+        <p><a href="@Url.Action("ImportarCoches", "Administracion")">Importar Coches</a></p>
+        <p><a href="@Url.Action("ImportarChoferes", "Administracion")">Importar Choferes</a></p>
+        <p><a href="@Url.Action("ImportarTarifas", "Administracion")">Importar Tarifas</a></p>
+        <p><a href="@Url.Action("ImportarHojasDeRutas", "Administracion")">Importar Hojas de rutas</a></p>
+        <p><a href="@Url.Action("ImportarZonas", "Administracion")">Importar Zonas</a></p>
+    </div>
+
+</div>
+

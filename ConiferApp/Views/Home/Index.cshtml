@@ -1,0 +1,65 @@
+﻿@using ConiferApp.Controllers
+@{
+    ViewBag.Title = "";
+}
+
+<div class="jumbotron">
+    <br />
+    <h2>ConiferApp</h2>
+    <p class="lead">Para obtener más información de la empresa Coniferal S.A.</p>
+    <p><a href="http://coniferalsacif.com.ar/" target="_blank" class="btn btn-primary btn-lg">Ir a la página oficial &raquo;</a></p>
+</div>
+
+<div class="row">
+
+
+    @if (AccesoController.logueado.Rol == 1)
+    {
+        <div class="col-md-12">
+            <br />
+            <h2>Informes</h2>
+            <p>Emitir reportes</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Acceder &raquo;</a></p>
+        </div>
+    }
+    else if (AccesoController.logueado.Rol == 2)
+    {
+        <div class="col-md-6">
+            <br />
+            <h2>Consolidado</h2>
+            <p>
+                Carga y administración del archivo
+            </p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Inicio", "Consolidado")">Acceder &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+                <br />
+                <h2>Hoja de ruta</h2>
+                <p>Cargar datos en la hoja de ruta</p>
+                <p><a class="btn btn-outline-dark" href="@Url.Action("ControlarProduccion2", "ControlarProduccion2")">Acceder &raquo;</a></p>
+            </div>
+        <div class="col-md-6">
+            <br />
+            <h2>Informes</h2>
+            <p>Emitir reportes</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Acceder &raquo;</a></p>
+        </div>
+    }
+    else
+    {
+<div class="col-md-6">
+    <br />
+    <h2>Consolidado</h2>
+    <p>Carga y administración del archivo</p>
+    <p><a class="btn btn-outline-dark" href="@Url.Action("Inicio", "Consolidado")">Acceder &raquo;</a></p>
+    <!--"ControlarProduccion2", "ControlarProduccion2"-->
+</div>
+        <div class="col-md-6">
+            <br />
+            <h2>Informes</h2>
+            <p>Emitir reportes</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Acceder &raquo;</a></p>
+        </div>
+    }
+
+</div>

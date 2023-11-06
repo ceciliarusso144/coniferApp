@@ -1,0 +1,76 @@
+﻿@using ConiferApp.Controllers
+@model ConiferApp.Models.Usuarios
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>BORRAR USUARIO</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    if (AccesoController.logueado.Legajo == Model.Legajo)
+    {
+        <div class="col-md-6">
+            <h3>No puede borrar el usuario logueado</h3>
+        </div>
+
+        <div class="form-actions no-color">
+            <br />
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
+    else
+    {
+        <div class="col-md-6">
+            <h3>¿Seguro que desea borrar el usuario?</h3>
+        </div>
+
+        <div class="form-actions no-color">
+            <br />
+            <input type="submit" value="Borrar" class="btn btn-outline-danger" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
+
+}
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DNI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DNI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Legajo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Legajo)
+        </dd>
+
+    </dl>
+</div>

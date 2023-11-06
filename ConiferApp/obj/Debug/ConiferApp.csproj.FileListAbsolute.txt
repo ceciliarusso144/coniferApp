@@ -1,0 +1,601 @@
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\ConiferApp.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.AppContext.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Console.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Globalization.Calendars.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.IO.Compression.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Net.Http.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Net.Sockets.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.ValueTuple.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Xml.XPath.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\WebGrease.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+D:\Escritorio\Microsoft Visual Studio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Buffers.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Memory.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\WebGrease.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.pdb
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.pdb
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+C:\Users\diego\OneDrive\Documentos\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Buffers.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Memory.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\WebGrease.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Buffers.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Memory.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Buffers.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Memory.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\JetBrains.Annotations.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.Mvc.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.IO.Pipelines.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\JetBrains.Annotations.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.Mvc.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.IO.Pipelines.xml
+C:\Users\tcruz\Documents\GitHub\ConiferApp\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Buffers.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Memory.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Numerics.Vectors.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\JetBrains.Annotations.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.Mvc.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Buffers.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.IO.Pipelines.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Memory.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\WebGrease.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.pdb
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.pdb
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\JetBrains.Annotations.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\PagedList.Mvc.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Buffers.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.IO.Pipelines.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Memory.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+C:\GITKRAKEN\ConiferApp\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+D:\Escritorio\ConiferApp\ConiferApp\bin\ConiferApp.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Buffers.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Memory.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Numerics.Vectors.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+D:\Escritorio\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Escritorio\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\EntityFramework.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\JetBrains.Annotations.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\PagedList.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\PagedList.Mvc.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Buffers.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.IO.Pipelines.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Memory.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\WebGrease.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\EntityFramework.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\JetBrains.Annotations.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\PagedList.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\PagedList.Mvc.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Buffers.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.IO.Pipelines.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Memory.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+D:\Escritorio\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+D:\Escritorio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+D:\Escritorio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+D:\Escritorio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+D:\Escritorio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+D:\Escritorio\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb
+D:\Escritorio\ConiferApp\ConiferApp\bin\Rotativa.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ConiferApp.dll.config
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ConiferApp.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ConiferApp.pdb
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csc.exe
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csc.exe.config
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csc.rsp
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csi.exe
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csi.exe.config
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\csi.rsp
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Buffers.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Memory.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\vbc.exe
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\vbc.exe.config
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\vbc.rsp
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Antlr3.Runtime.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\EntityFramework.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\JetBrains.Annotations.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Newtonsoft.Json.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\PagedList.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\PagedList.Mvc.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Rotativa.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Buffers.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.IO.Pipelines.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Memory.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Helpers.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Mvc.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Optimization.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Razor.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\WebGrease.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\EntityFramework.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.pdb
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.pdb
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\ExcelDataReader.DataSet.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\JetBrains.Annotations.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Newtonsoft.Json.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\PagedList.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\PagedList.Mvc.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Buffers.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.IO.Pipelines.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Memory.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Numerics.Vectors.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Text.Encodings.Web.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Helpers.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Mvc.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Razor.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\System.Web.Optimization.xml
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\Antlr3.Runtime.pdb
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.Razor.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.AssemblyReference.cache
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CoreCompileInputs.cache
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\obj\Debug\ConiferApp.csproj.CopyComplete
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\obj\Debug\ConiferApp.dll
+C:\Users\Ceci\source\repos\Facu\ConiferApp\ConiferApp\obj\Debug\ConiferApp.pdb

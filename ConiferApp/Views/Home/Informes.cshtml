@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Informes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Informes del sistema</h2>
+<img height="200" width="200" src="~/Recursos/logoReporte.jpg" />
+<br />
+<div class="col-md-6">
+    <br />
+    <p><a href="@Url.Action("Index", "CantidadTarifasXlineas")">Cantidad de tarifas por línea</a></p>
+    <p><a href="">Reporte 2</a></p>
+    <p><a href="">Reporte 3</a></p>
+    <p><a href="">Reporte 4</a></p>
+</div>
+<br />
+<a href="@Url.Action("Index", "Home")">Volver a inicio</a>
+

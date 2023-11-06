@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ConiferApp.Models.TiposIncidentes>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>LISTA DE TIPOS DE INCIDENTES</h2>
+<br />
+
+<p>
+    @Html.ActionLink("Crear nuevo tipo de incidente", "Create")| <a href="@Url.Action("Inicio", "Administracion")">Volver a administración</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Vigente)
+        </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        if (item.Vigente == true)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Vigente)
+            </td>*@
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Detalle", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Borrar", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+        }
+    }
+
+</table>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ConiferApp.Models.CantidadTarifasXlineas>
+@{
+    ViewBag.Title = "VistaPrevia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Cantidad de boletos por línea, según tipo de tarifa</h2>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            Tipo de tarifa
+        </th>
+        <th>
+            Cantidad de boletos
+        </th>
+        <th>
+            Línea de coche
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo_de_tarifa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad_de_boletos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Línea)
+            </td>
+            
+        </tr>
+    }
+
+</table>
+<br />
+

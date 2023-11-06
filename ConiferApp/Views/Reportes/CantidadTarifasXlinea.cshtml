@@ -1,0 +1,38 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "CantidadTarifasXlinea";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CantidadTarifasXlinea</h2>
+<table class="table">
+    <tr>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Cantidad
+        </th>
+       
+
+    </tr>
+
+    @foreach (DataRow item in Model.Rows)
+    {
+     
+        
+            <tr>
+                <td>
+                    @Convert.ToString(item["Nombre"])
+                </td>
+                <td>
+                    @Convert.ToString(item["cantidad"])
+                </td>
+               
+
+            </tr>
+        
+    }
+
+</table>
