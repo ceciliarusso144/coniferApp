@@ -9,7 +9,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h4 class="text-center">Listado de producción</h4>
+<h4 class="text-center">Consultar producción</h4>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -17,20 +17,20 @@
             <form asp-action="ControlarProduccion" method="get">
                 <div class="form-group">
                     <div class="row">
-                        buscar por:
                         <div>
+                            Buscar por:
                             <select class="form-control" name="TipoBusqueda" id="TipoBusqueda">
-                                <option selected>Seleccione Criterio</option>
+                                <option selected>Seleccione criterio</option>
                                 <option value="Legajo">Legajo</option>
                                 <option value="Coche">Coche</option>
-                                <option value="Linea">Linea</option>
+                                <option value="Linea">Línea</option>
                                 <option value="Fecha">Fecha</option>
                                 <option value="Controladora">Controladora</option>
                             </select>
-                            <div>Formato Fecha: dd/mm/aaaa</div>
-                            <input type="text" name="cadenaBusqueda" value="@ViewData["CurrentFilter"]"/>
+                            <div></div>
+                            <input type="text" name="cadenaBusqueda" value="@ViewData["CurrentFilter"]" />
+                            <input type="submit" value="Buscar" class="btn btn-sm btn-success" />
                         </div>
-                        <input type="submit" value="Buscar" class="btn btn-sm btn-success" /> 
                     </div>
                 </div>
             </form>
@@ -49,13 +49,13 @@
                 ID
             </th>
             <th>
-                Id Producción
+                Nro. producción
             </th>
             <th>
                 Fecha
             </th>
             <th>
-                @Html.ActionLink("Linea", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenLinea })
+                @Html.ActionLink("Línea", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenLinea })
             </th>
             <th>
                 @Html.ActionLink("Coche", "ControlarProduccion", new { Ordenamiento = ViewBag.OrdenCoche }) 
@@ -64,16 +64,13 @@
                 Legajo
             </th>
             <th>
-                Hora Inicio
+                Hora inicio
             </th>
             <th>
-                Hora Fin
+                Hora fin
             </th>
             <th>
                 Controladora
-            </th>
-            <th>
-                Vueltas
             </th>
             <th>
                 Acciones
@@ -112,9 +109,6 @@
                     @item.controladora
                 </td>
                 <td>
-                    @item.vueltas
-                </td>
-                <td>
                     <a class="btn btn-sm btn-secondary" @Html.ActionLink("Detalles", "Details", new { id = item.id })></a>
                 </td>
             </tr>
@@ -127,7 +121,7 @@
 <br />
 
 <div>
-    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount  -  Elementos totales: @Model.TotalItemCount
+    Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount  -  Elementos totales: @Model.TotalItemCount
 
     @Html.PagedListPager(Model, page => Url.Action("ControlarProduccion",
         new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
