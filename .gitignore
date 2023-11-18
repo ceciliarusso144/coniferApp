@@ -1,1 +1,6 @@
 /packages
+/.vs
+.vs
+/vs
+ConiferApp/obj/Debug
+/ConiferApp/obj/Debug
