@@ -144,7 +144,7 @@ namespace ConiferApp.Controllers
 
                     
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     throw;
                 }

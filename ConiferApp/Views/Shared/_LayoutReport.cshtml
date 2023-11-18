@@ -1,20 +1,27 @@
-﻿@using ConiferApp.Controllers
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title ConiferApp</title>
-    <link href="~/Recursos/logoConiferal.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="shortcut icon" href="~/Recursos/faviconAPP.ico" />
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container" style="color: darkgoldenrod">
+            <hr />
+            <h1 class="navbar-brand">------------------------------------- |  Reportes ConiferApp &reg; | --------------------------------------------</h1>
+            <hr />
+        </div>
+    </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+        <hr style="color:darkgoldenrod"/>
         <footer>
-            <p>&copy; @DateTime.Now.Year - ConiferApp</p>
+            <p style="color: darkgoldenrod">&copy; @DateTime.Now - ConiferApp</p>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

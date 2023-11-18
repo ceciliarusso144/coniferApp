@@ -466,62 +466,80 @@ namespace ConiferApp.Controllers
                     ///////////////////////
                     DataTable produccion_detalle = new DataTable();
                     DataColumn column;
-                    DataRow row;
+                    //DataRow row;
 
                     //Definiendo tabla 
                     // Campo Id
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "id";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "id"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo fecha
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.DateTime");
-                    column.ColumnName = "fecha";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.DateTime"),
+                        ColumnName = "fecha"
+                    };
                     produccion_detalle.Columns.Add(column);
 
 
                     // Campo linea
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "linea";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "linea"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo coche
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "coche";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "coche"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo legajo
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "legajo";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "legajo"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo hora inicio
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.String");
-                    column.ColumnName = "horainicio";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.String"),
+                        ColumnName = "horainicio"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo hora fin
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.String");
-                    column.ColumnName = "horafin";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.String"),
+                        ColumnName = "horafin"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo nro. controladora
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.String");
-                    column.ColumnName = "numerodecontroladora";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.String"),
+                        ColumnName = "numerodecontroladora"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     // Campo vueltas
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "vueltas";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "vueltas"
+                    };
                     produccion_detalle.Columns.Add(column);
 
                     ///////////////////////
@@ -530,21 +548,27 @@ namespace ConiferApp.Controllers
                     DataTable tarifasXproduccion_detalle = new DataTable();
 
                     // Campo Id cabecera        //////// id de tabla produccion detalle
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "idcabecera";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "idcabecera"
+                    };
                     tarifasXproduccion_detalle.Columns.Add(column);
 
                     // Campo Id tarifa
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "idtarifa";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "idtarifa"
+                    };
                     tarifasXproduccion_detalle.Columns.Add(column);
 
                     // Campo cantidad de boletos
-                    column = new DataColumn();
-                    column.DataType = System.Type.GetType("System.Int32");
-                    column.ColumnName = "cantidad";
+                    column = new DataColumn
+                    {
+                        DataType = System.Type.GetType("System.Int32"),
+                        ColumnName = "cantidad"
+                    };
                     tarifasXproduccion_detalle.Columns.Add(column);
 
 
@@ -635,7 +659,7 @@ namespace ConiferApp.Controllers
                                     {
                                        if (contadorid == 56)
                                         {
-                                            int a = 1; 
+                                            //int a = 1; 
                                         }
 
                                         // hay cambio de linea, se debe registrar
@@ -742,7 +766,7 @@ namespace ConiferApp.Controllers
                                     
 
                                          vueltas++;
-                                         contadorboletos = contadorboletos + cantidadboletos;
+                                         contadorboletos += cantidadboletos;
                                          rowcabecera["fecha"] = Convert.ToDateTime(stringfecha);
                                          rowcabecera["linea"] = linea;
                                          rowcabecera["coche"] = coche;
@@ -761,8 +785,10 @@ namespace ConiferApp.Controllers
                                     // Obtener el nro. de Id que corresponde a la tarifa
                                     //int idtarifa = idtarifaexterna;
 
-                                    SqlCommand _sqlcmd = new SqlCommand("select * from tarifas where idexterno = " + idtarifaexterna, cnn);
-                                    _sqlcmd.CommandType = CommandType.Text;
+                                    SqlCommand _sqlcmd = new SqlCommand("select * from tarifas where idexterno = " + idtarifaexterna, cnn)
+                                    {
+                                        CommandType = CommandType.Text
+                                    };
                                     DataTable _dtt = new DataTable();
 
                                     var _rdr = _sqlcmd.ExecuteReader();
@@ -833,7 +859,7 @@ namespace ConiferApp.Controllers
 
 
 
-                    int prueba = 0;
+                    //int prueba = 0;
 
 
 
@@ -842,8 +868,10 @@ namespace ConiferApp.Controllers
                     /////// INSERTAR DATOS EN LA BD
                     SqlCommand sqlcmd = new SqlCommand();
 
-                    sqlcmd = new SqlCommand("sp_InsertarProduccion", cnn);
-                    sqlcmd.CommandType = CommandType.StoredProcedure;
+                    sqlcmd = new SqlCommand("sp_InsertarProduccion", cnn)
+                    {
+                        CommandType = CommandType.StoredProcedure
+                    };
 
                     sqlcmd.Parameters.AddWithValue("@fecha", _fechaProduccion);
 
@@ -858,9 +886,11 @@ namespace ConiferApp.Controllers
                     int idproduccion = Convert.ToInt32(_dt.Rows[0]["idproduccion"].ToString());
 
                     ///////////INSERTAR ARCHIVO ///////////
-                    
-                    sqlcmd = new SqlCommand("sp_InsertarArchivo", cnn);
-                    sqlcmd.CommandType = CommandType.StoredProcedure;
+
+                    sqlcmd = new SqlCommand("sp_InsertarArchivo", cnn)
+                    {
+                        CommandType = CommandType.StoredProcedure
+                    };
 
                     sqlcmd.Parameters.AddWithValue("@idProduccion", idproduccion);
                     sqlcmd.Parameters.AddWithValue("@nombre", _nombrefile);
@@ -876,13 +906,15 @@ namespace ConiferApp.Controllers
                         idCabeceraActual = Convert.ToInt32(PD_Fila["id"].ToString());
 
 
-                       // if (idCabeceraActual = 56 || idCabeceraActual = 85 idCabeceraActual = )
+                        // if (idCabeceraActual = 56 || idCabeceraActual = 85 idCabeceraActual = )
 
 
                         //insertar en la tabla produccion detalle <- dt produccion_detalle
 
-                        sqlcmd = new SqlCommand("sp_InsertarProduccionDetalle", cnn);
-                        sqlcmd.CommandType = CommandType.StoredProcedure;
+                        sqlcmd = new SqlCommand("sp_InsertarProduccionDetalle", cnn)
+                        {
+                            CommandType = CommandType.StoredProcedure
+                        };
 
 
                         var _fecha = PD_Fila["fecha"].ToString();
@@ -932,8 +964,10 @@ namespace ConiferApp.Controllers
                         {
                             if ( Convert.ToInt32(TXP_Fila["idcabecera"].ToString()) == idCabeceraActual) 
                             {
-                                sqlcmd = new SqlCommand("[sp_InsertarTarifaXProduccionDetalle]", cnn);
-                                sqlcmd.CommandType = CommandType.StoredProcedure;
+                                sqlcmd = new SqlCommand("[sp_InsertarTarifaXProduccionDetalle]", cnn)
+                                {
+                                    CommandType = CommandType.StoredProcedure
+                                };
 
 
                                 int idproducciondetalle = idCabeceraActual;

@@ -1,0 +1,54 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "ImprimirTotalesXTarifa";
+    Layout = "~/Views/Shared/_LayoutReport.cshtml";
+}
+<h2>Totales por tipo de tarifa</h2>
+<br />
+<h3>Fecha desde: @ViewData["Fecha1"] ------------  Fecha hasta: @ViewData["Fecha2"] -----------  Corredor: @ViewData["Corredor"]</h3>
+<br />
+
+@if (ViewData["Resultado"] != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                Tipo Tarifa
+            </th>
+            <th>
+                precio
+            </th>
+            <th>
+                Cantidad de boletos
+            </th>
+            <th>
+                Recaudación
+            </th>
+        </tr>
+        @foreach (DataRow item in Model.Rows)
+        {
+            <tr>
+                <td>
+                    @Convert.ToString(item[""])
+                </td>
+                <td>
+                    @Convert.ToString(item[""])
+                </td>
+                <td>
+                    @Convert.ToString(item[""])
+                </td>
+                <td>
+                    @Convert.ToString(item[""])
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@if (ViewData["Mensaje"] != null)
+{
+    @ViewData["Mensaje"]
+}
+
+

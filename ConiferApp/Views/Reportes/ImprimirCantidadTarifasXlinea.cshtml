@@ -1,0 +1,47 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "ImprimirCantidadTarifas";
+    Layout = "~/Views/Shared/_LayoutReport.cshtml";
+}
+<h2>Cantidad de tarifas por línea</h2>
+<br />
+<h3>Fecha desde: @ViewData["Fecha1"] ------------  Fecha hasta: @ViewData["Fecha2"] -----------  Línea: @ViewData["Linea"]</h3>
+<br />
+
+@if (ViewData["Resultado"] != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                Fecha
+            </th>
+            <th>
+                Tipo de tarifa
+            </th>
+            <th>
+                Cantidad
+            </th>
+        </tr>
+        @foreach (DataRow item in Model.Rows)
+        {
+            <tr>
+                <td>
+                    @Convert.ToString(item["fecha"])
+                </td>
+                <td>
+                    @Convert.ToString(item["Nombre"])
+                </td>
+                <td>
+                    @Convert.ToString(item["cantidad"])
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@if (ViewData["Mensaje"] != null)
+{
+    @ViewData["Mensaje"]
+}
+

@@ -181,7 +181,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccesoController.cs" />
     <Compile Include="Controllers\AdministracionController.cs" />
-    <Compile Include="Controllers\CantidadTarifasXlineasController.cs" />
     <Compile Include="Controllers\ControlarProduccion2Controller.cs" />
     <Compile Include="Controllers\ConsolidadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -194,12 +193,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\CantidadTarifasXlineas.cs" />
     <Compile Include="Models\DbPermisos.cs" />
     <Compile Include="Models\DbRoles.cs" />
     <Compile Include="Models\DbTiposIncidentes.cs" />
     <Compile Include="Models\DbUsuarios.cs" />
-    <Compile Include="Models\DbCantidadTarifasXlineas.cs" />
     <Compile Include="Models\Permisos.cs" />
     <Compile Include="Models\ProduccionDetalle.cs" />
     <Compile Include="Models\Roles.cs" />
@@ -329,8 +326,13 @@
     <Content Include="Views\Home\Informes.cshtml" />
     <Content Include="Views\Reportes\CantidadTarifasXlinea.cshtml" />
     <Content Include="Views\Shared\_LayoutReport.cshtml" />
-    <Content Include="Views\CantidadTarifasXlineas\Index.cshtml" />
-    <Content Include="Views\CantidadTarifasXlineas\VistaPrevia.cshtml" />
+    <Content Include="Views\Reportes\ImprimirCantidadTarifasXlinea.cshtml" />
+    <Content Include="Views\Reportes\BoletosPendientes.cshtml" />
+    <Content Include="Views\Reportes\ImprimirBoletosPendientes.cshtml" />
+    <Content Include="Views\Reportes\TotalesXCorredor.cshtml" />
+    <Content Include="Views\Reportes\ImprimirTotalesXCorredor.cshtml" />
+    <Content Include="Views\Reportes\ImprimirTotalesXTarifa.cshtml" />
+    <Content Include="Views\Reportes\TotalesXTarifa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
