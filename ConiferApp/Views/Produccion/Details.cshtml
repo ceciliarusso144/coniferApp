@@ -5,14 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
 
 <div>
-    <h4>ProduccionDetalle</h4>
+    <h4>Producción detalle</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.idproduccion)
+            Nro. producción
         </dt>
 
         <dd>
@@ -20,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.fecha)
+            Fecha
         </dt>
 
         <dd>
@@ -28,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.linea)
+            Línea
         </dt>
 
         <dd>
@@ -36,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.coche)
+            Coche
         </dt>
 
         <dd>
@@ -44,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.legajo)
+            Legajo
         </dt>
 
         <dd>
@@ -52,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.horainicio)
+            Hora inicio
         </dt>
 
         <dd>
@@ -60,7 +59,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.horafin)
+            Hora fin
         </dt>
 
         <dd>
@@ -68,24 +67,16 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.controladora)
+            Controladora
         </dt>
 
         <dd>
             @Html.DisplayFor(model => model.controladora)
         </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.vueltas)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.vueltas)
-        </dd>
-
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
-    @Html.ActionLink("Back to List", "ControlarProduccion")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Volver", "ControlarProduccion")
 </p>
