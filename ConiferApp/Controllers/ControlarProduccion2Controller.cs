@@ -1,39 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Data.SqlTypes;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Web;
-using System.Web.Caching;
 using System.Web.Mvc;
 
 namespace ConiferApp.Controllers
 {
     [Authorize]
 
-    
+
 
     public class ControlarProduccion2Controller : Controller
     {
         private readonly string cadena = ConfigurationManager.AppSettings["CadenaBD"];
-        private int cantidadboletos = 0;
-        private int cantidadboletosHR = 0;
+        //private int cantidadboletos = 0;
+        //private int cantidadboletosHR = 0;
+
         //private int banderaerror = 0;
         //private DateTime _fechaProduccion;
         // private string _nombrefile;
         // GET: Consolidado
 
-      //  public ActionResult Index()
-       // {
-            // Aquí recuperas el dato de la base de datos
-      //      Producto producto = ObtenerProductoDesdeLaBaseDeDatos();
+        //  public ActionResult Index()
+        // {
+        // Aquí recuperas el dato de la base de datos
+        //      Producto producto = ObtenerProductoDesdeLaBaseDeDatos();
 
-       //     return View(producto);
-       // }
+        //     return View(producto);
+        // }
 
 
         public ActionResult ControlarProduccion2()
@@ -47,11 +41,11 @@ namespace ConiferApp.Controllers
         }
 
         [HttpPost]
-        public ActionResult ControlarProduccion2( DateTime fecha)
+        public ActionResult ControlarProduccion2(DateTime fecha)
         {
             string data = Request.Form.Keys[1].ToString();
             //_fechaProduccion = fecha;
-           
+
             if (data == "Controlar")
             {
                 // Guardando datos de Sesión
@@ -149,36 +143,36 @@ namespace ConiferApp.Controllers
                 DataTable dtvalor = new DataTable();
                 dtvalor.Load(Resultado);
                 Resultado.Close();
-                
-                
-                if (dtvalor.Rows.Count == 0 )   
+
+
+                if (dtvalor.Rows.Count == 0)
                 {
                     ViewData["ExitoNoHayRegistrosParaControlar"] = "No hay registros de Hojas de Ruta para Controlar.";
                     return View();
                 }
-                           
+
 
                 foreach (DataRow fila in dtvalor.Rows)
                 {
-                    int _legajo     = Int32.Parse(fila["legajo_chofer"].ToString());
-                    int _coche      = Int32.Parse(fila["coche"].ToString());
-                    int _linea      = Int32.Parse(fila["linea"].ToString());
-                    int _id         = Int32.Parse(fila["id"].ToString());
-                    int _boletosHR  = Int32.Parse(fila["cantidad_boletos"].ToString());
-                    
+                    int _legajo = Int32.Parse(fila["legajo_chofer"].ToString());
+                    int _coche = Int32.Parse(fila["coche"].ToString());
+                    int _linea = Int32.Parse(fila["linea"].ToString());
+                    int _id = Int32.Parse(fila["id"].ToString());
+                    int _boletosHR = Int32.Parse(fila["cantidad_boletos"].ToString());
+
                     // Ver si se incluye fecha
 
                     contadorboletos += _boletosHR;
 
                     // Por cada registro de HR,s e busca en el la Produccion
-                    SqlCommand sqlcmdPendiente1; 
+                    SqlCommand sqlcmdPendiente1;
                     sqlcmdPendiente1 = new SqlCommand("sp_ObtenerProduccionParaControlar", cnn);
                     sqlcmdPendiente1.CommandType = CommandType.StoredProcedure;
 
                     sqlcmdPendiente1.Parameters.AddWithValue("@legajo", _legajo);
-                    sqlcmdPendiente1.Parameters.AddWithValue("@coche",  _coche);
-                    sqlcmdPendiente1.Parameters.AddWithValue("@linea",  _linea);
-                    sqlcmdPendiente1.Parameters.AddWithValue("@fecha",  fecha);
+                    sqlcmdPendiente1.Parameters.AddWithValue("@coche", _coche);
+                    sqlcmdPendiente1.Parameters.AddWithValue("@linea", _linea);
+                    sqlcmdPendiente1.Parameters.AddWithValue("@fecha", fecha);
 
                     var ResultadoProduccion = sqlcmdPendiente1.ExecuteReader();
 
@@ -186,13 +180,13 @@ namespace ConiferApp.Controllers
                     dt_produccion.Load(ResultadoProduccion);
                     ResultadoProduccion.Close();
 
-                    if (dt_produccion.Rows.Count == 0 )
+                    if (dt_produccion.Rows.Count == 0)
                     {
                         // No se encuentran datos de HR en Produccion
                         // debe guardarse como Pendientes
                         contadornuevospendientes += _boletosHR;
 
-                        SqlCommand sqlcmd_ = new  SqlCommand("sp_InsertarPendiente", cnn);
+                        SqlCommand sqlcmd_ = new SqlCommand("sp_InsertarPendiente", cnn);
 
                         //sqlcmdPendiente = new SqlCommand("sp_InsertarPendiente", cnn);
                         sqlcmd_.CommandType = CommandType.StoredProcedure;
@@ -206,7 +200,7 @@ namespace ConiferApp.Controllers
                         sqlcmd_.Parameters.AddWithValue("@fecha", fecha); // Ver Fecha
 
                         var result = sqlcmd_.ExecuteNonQuery();
-                       
+
                         // Tambien se Actualiza el Estado de la HR, como ya revisada
                         SqlCommand sqlcmdCerrarHR = new SqlCommand();
                         sqlcmdCerrarHR = new SqlCommand("sp_CerrarEstadoHR", cnn);
@@ -291,7 +285,7 @@ namespace ConiferApp.Controllers
                             break;
                         }
                     } //foreach de produccion
-                    break; 
+                    break;
                 } // foreach de HR
 
                 // Ya se revisaron todas las HR, ahora se deben guardar actualizar los pendientes
@@ -308,7 +302,7 @@ namespace ConiferApp.Controllers
 
                 ResultadoHRPendientes.Close();
 
-                if (dt_pendientes.Rows.Count > 0 )
+                if (dt_pendientes.Rows.Count > 0)
                 {
 
                     foreach (DataRow filapendiente in dt_pendientes.Rows) // Ver si esta correcto que sean varios registros devueltos
@@ -317,7 +311,7 @@ namespace ConiferApp.Controllers
                         int _cochependiente = Int32.Parse(filapendiente["coche"].ToString());
                         int _lineapendiente = Int32.Parse(filapendiente["linea"].ToString());
                         //int _idpendiente = Int32.Parse(filapendiente["id"].ToString());
-                        DateTime  _fechapendiente = Convert.ToDateTime(filapendiente["fecha"].ToString());
+                        DateTime _fechapendiente = Convert.ToDateTime(filapendiente["fecha"].ToString());
                         int _boletospendientes = Int32.Parse(filapendiente["cantidadboletos"].ToString());
 
                         contadorpendientes += _boletospendientes;
@@ -334,14 +328,14 @@ namespace ConiferApp.Controllers
                         sqlcmdPendiente4.ExecuteNonQuery();
                     }
                 }
-              
-                ViewData["Exito"] = "Fin Control de Producción. Total Boletos:"+ contadorboletos+" - Pendientes:"+ contadorpendientes+" - Nuevos Pendientes:"+ contadornuevospendientes ;
+
+                ViewData["Exito"] = "Fin Control de Producción. Total Boletos:" + contadorboletos + " - Pendientes:" + contadorpendientes + " - Nuevos Pendientes:" + contadornuevospendientes;
                 return View();
 
             }
             else
             {
-              SqlConnection cnn = new SqlConnection(cadena);
+                SqlConnection cnn = new SqlConnection(cadena);
                 try
                 {
                     SqlCommand cmd = new SqlCommand();

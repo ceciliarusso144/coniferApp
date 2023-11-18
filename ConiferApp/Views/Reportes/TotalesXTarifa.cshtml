@@ -1,11 +1,11 @@
 ﻿@using System.Data
 @model DataTable
 @{
-    ViewBag.Title = "CantidadTarifasXlinea";
+    ViewBag.Title = "TotalesXTarifa";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <br />
-<h2>Cantidad tarifas  por fecha y línea</h2>
+<h2>Totales por tipo de tarifa</h2>
 <br />
 <form method="post" enctype="multipart/form-data">
     <div>
@@ -22,8 +22,8 @@
                 <br />
             </div>
             <div class="col-md-3">
-                <label for="linea">Línea:</label>
-                <input name="linea" type="number" placeholder="64" required />
+                <label for="corredor">Corredor:</label>
+                <input name="corredor" type="number" placeholder="6" required />
             </div>
             <div class="col-md-3">
                 <br />
@@ -37,26 +37,32 @@
             <table class="table">
                 <tr>
                     <th>
-                        Fecha
+                        Tipo Tarifa
                     </th>
                     <th>
-                        Tipo de tarifa
+                        precio
                     </th>
                     <th>
-                        Cantidad
+                        Cantidad de boletos
+                    </th>
+                    <th>
+                        Recaudación
                     </th>
                 </tr>
                 @foreach (DataRow item in Model.Rows)
                 {
                     <tr>
                         <td>
-                            @Convert.ToString(item["fecha"])
+                            @Convert.ToString(item[""])
                         </td>
                         <td>
-                            @Convert.ToString(item["Nombre"])
+                            @Convert.ToString(item[""])
                         </td>
                         <td>
-                            @Convert.ToString(item["cantidad"])
+                            @Convert.ToString(item[""])
+                        </td>
+                        <td>
+                            @Convert.ToString(item[""])
                         </td>
                     </tr>
                 }
@@ -75,5 +81,7 @@
 
     </div>
     <br />
-    <a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Volver a reportes</a>  |  <a class="btn btn-outline-dark" href="@Url.Action("ImprimirCantidadTarifasXlinea", "Reportes")">Imprimir</a>
+    <a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Volver a reportes</a>  |  <a class="btn btn-outline-dark" href="@Url.Action("ImprimirTotalesXTarifa", "Reportes")">Imprimir</a>
 </form>
+
+

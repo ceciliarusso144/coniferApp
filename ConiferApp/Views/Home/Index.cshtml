@@ -1,6 +1,6 @@
 ﻿@using ConiferApp.Controllers
 @{
-    ViewBag.Title = "";
+    ViewBag.Title = "Inicio";
 }
 
 <div class="jumbotron">
@@ -32,12 +32,12 @@
             </p>
             <p><a class="btn btn-outline-dark" href="@Url.Action("Inicio", "Consolidado")">Acceder &raquo;</a></p>
         </div>
-        <div class="col-md-4">
+        @*<div class="col-md-4">
                 <br />
                 <h2>Hoja de ruta</h2>
                 <p>Cargar datos en la hoja de ruta</p>
-                <p><a class="btn btn-outline-dark" href="@Url.Action("ControlarProduccion2", "ControlarProduccion2")">Acceder &raquo;</a></p>
-            </div>
+                <p><a class="btn btn-outline-dark" href="#">Acceder &raquo;</a></p>
+            </div>*@
         <div class="col-md-6">
             <br />
             <h2>Informes</h2>
@@ -47,19 +47,12 @@
     }
     else
     {
-<div class="col-md-6">
-    <br />
-    <h2>Consolidado</h2>
-    <p>Carga y administración del archivo</p>
-    <p><a class="btn btn-outline-dark" href="@Url.Action("Inicio", "Consolidado")">Acceder &raquo;</a></p>
-    <!--"ControlarProduccion2", "ControlarProduccion2"-->
-</div>
         <div class="col-md-6">
-            <br />
-            <h2>Informes</h2>
-            <p>Emitir reportes</p>
-            <p><a class="btn btn-outline-dark" href="@Url.Action("Informes", "Home")">Acceder &raquo;</a></p>
-        </div>
+                <br />
+                <h2>Hoja de ruta</h2>
+                <p>Cargar datos en la hoja de ruta</p>
+                <p><a class="btn btn-outline-dark" href="#">Acceder &raquo;</a></p>
+            </div>
     }
 
 </div>

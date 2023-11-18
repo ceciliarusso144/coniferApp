@@ -12,45 +12,29 @@ namespace ConiferApp.Controllers
     public class ReportesController : Controller
     {
         private readonly string cadena = ConfigurationManager.ConnectionStrings["CadenaBD"].ConnectionString;
-        // GET: Reportes
-        public ActionResult Index()
+        private DataTable reporte = new DataTable();
+
+        public DataTable ObtenerCantidadTarifas(DateTime f1, DateTime f2, int id)
         {
-            return View();
-        }
-      
-        public DataTable CantidadTarifasXlinea(int id)
-        {
+            string consulta;
+            DataTable tabla = new DataTable();
             SqlConnection cn = new SqlConnection(cadena);
             cn.Open();
-            string consulta;
             try
             {
-                #region Obtener Tabla
-                DataTable tabla = new DataTable();
+                #region Obtener Tabla              
                 SqlCommand cmd = new SqlCommand();
-                consulta = "select t.Nombre, c.cantidad" +
-                           "from Tarifas t, ProduccionDetalle pd, TarifasXProduccionDetalle c" +
-                           "where t.Id=c.idtarifa and c.idproducciondetalle=pd.id and pd.linea=@id";
+                consulta = "ReporteCantidadTarifasXlinea";
                 cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@fechaDesde", f1);
+                cmd.Parameters.AddWithValue("@fechaHasta", f2);
                 cmd.Parameters.AddWithValue("@id", id);
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = consulta;             
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = consulta;
                 cmd.Connection = cn;
-                SqlDataReader dr=cmd.ExecuteReader();
-
-                if(dr.HasRows)
-                {
-                    while(dr.Read()) 
-                    {
-                        tabla.Rows.Add(
-                            dr["Id"].ToString(),
-                            dr["Nombre"].ToString(),
-                            dr["cantidad"].ToString()
-                            );
-                    }
-                }
-                //SqlDataAdapter da = new SqlDataAdapter(cmd);              
-                //da.Fill(tabla);
+                SqlDataReader dr = cmd.ExecuteReader();
+                tabla.Load(dr);
+                dr.Close();
                 return tabla;
                 #endregion               
             }
@@ -62,14 +46,348 @@ namespace ConiferApp.Controllers
             {
                 cn.Close();
             }
-            
         }
-       
-        public ActionResult CantidadTarifas()
+
+        public ActionResult CantidadTarifasXLinea()
         {
-            DataTable tabla = CantidadTarifasXlinea(65);
-            return View(tabla);
+            return View();
         }
-     
+
+        [HttpPost]
+        public ActionResult CantidadTarifasXLinea(DateTime fecha1, DateTime fecha2, int linea)
+        {
+            Session["dt1"] = fecha1;
+            Session["dt2"] = fecha2;
+            Session["ln"] = linea;
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            reporte = ObtenerCantidadTarifas(fecha1, fecha2, linea);
+            if (reporte.Rows.Count <= 0)
+            {
+                ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+            }
+            else
+            {
+                ViewData["Resultado"] = "Cargado";
+            }
+            return View(reporte);
+        }
+
+        public ActionResult ImprimirCantidadTarifasXlinea()
+        {
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            try
+            {
+                DateTime f1 = (DateTime)Session["dt1"];
+                DateTime f2 = (DateTime)Session["dt2"];
+                ViewData["Fecha1"] = f1.ToShortDateString();
+                ViewData["Fecha2"] = f2.ToShortDateString();
+                ViewData["Linea"] = Session["ln"];
+                reporte = ObtenerCantidadTarifas((DateTime)Session["dt1"], (DateTime)Session["dt2"], (int)Session["ln"]);
+                if (reporte.Rows.Count <= 0)
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+            catch (Exception)
+            {
+                ViewData["Mensaje"] = "NO HA INGRESADO DATOS PARA EL REPORTE";
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+        }
+
+        public DataTable ObtenerBoletosPendientes(DateTime f1, DateTime f2, Boolean e)
+        {
+            string consulta;
+            DataTable tabla = new DataTable();
+            SqlConnection cn = new SqlConnection(cadena);
+            cn.Open();
+            try
+            {
+                #region Obtener Tabla
+                SqlCommand cmd = new SqlCommand();
+                consulta = "sp_ObtenerPendientesPorFechaYEstado";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@fechaDesde", f1);
+                cmd.Parameters.AddWithValue("@fechaHasta", f2);
+                cmd.Parameters.AddWithValue("@estado", e);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = consulta;
+                cmd.Connection = cn;
+                SqlDataReader dr = cmd.ExecuteReader();
+                tabla.Load(dr);
+                dr.Close();
+                return tabla;
+                #endregion               
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        public ActionResult BoletosPendientes()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult BoletosPendientes(DateTime fecha1, DateTime fecha2, string estadoSeleccionado)
+        {
+            Session["dt1"] = fecha1;
+            Session["dt2"] = fecha2;
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            if (estadoSeleccionado == "0")
+            {
+                Session["b"] = false;
+                reporte = ObtenerBoletosPendientes(fecha1, fecha2, false);               
+                if(reporte.Rows.Count <= 0) 
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";                 
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+            }
+            else
+            {
+                reporte = ObtenerBoletosPendientes(fecha1, fecha2, true);
+                Session["b"] = true;
+                if (reporte.Rows.Count <= 0)
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+            }
+            return View(reporte);
+        }
+
+        public ActionResult ImprimirBoletosPendientes()
+        {
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            try
+            {
+                DateTime f1 = (DateTime)Session["dt1"];
+                DateTime f2 = (DateTime)Session["dt2"];
+                ViewData["Fecha1"] = f1.ToShortDateString();
+                ViewData["Fecha2"] = f2.ToShortDateString();
+                if ((Boolean)Session["b"])
+                {
+                    ViewData["Estado"] = "Pendientes saldados";
+                }
+                else
+                {
+                    ViewData["Estado"] = "Pendientes sin saldar";
+                }
+                reporte = ObtenerBoletosPendientes((DateTime)Session["dt1"], (DateTime)Session["dt2"], (Boolean)Session["b"]);
+                if (reporte.Rows.Count <= 0)
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+            catch (Exception) 
+            {
+                ViewData["Mensaje"] = "NO HA INGRESADO DATOS PARA EL REPORTE";
+                return new Rotativa.ViewAsPdf(reporte);
+            }          
+        }
+
+        public DataTable ObtenerTotalesXCorredor(DateTime f1, DateTime f2, int id)
+        {
+            string consulta;
+            DataTable tabla = new DataTable();
+            SqlConnection cn = new SqlConnection(cadena);
+            cn.Open();
+            try
+            {
+                #region Obtener Tabla              
+                SqlCommand cmd = new SqlCommand();
+                consulta = "";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@fechaDesde", f1);
+                cmd.Parameters.AddWithValue("@fechaHasta", f2);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = consulta;
+                cmd.Connection = cn;
+                SqlDataReader dr = cmd.ExecuteReader();
+                tabla.Load(dr);
+                dr.Close();
+                return tabla;
+                #endregion               
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        public ActionResult TotalesXCorredor()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult TotalesXCorredor(DateTime fecha1, DateTime fecha2, int corredor)
+        {
+            Session["dt1"] = fecha1;
+            Session["dt2"] = fecha2;
+            Session["cr"] = corredor;
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            reporte = ObtenerTotalesXCorredor(fecha1, fecha2, corredor);
+            if (reporte.Rows.Count <= 0)
+            {
+                ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+            }
+            else
+            {
+                ViewData["Resultado"] = "Cargado";
+            }
+            return View(reporte);
+        }
+
+        public ActionResult ImprimirTotalesXCorredor()
+        {
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            try
+            {
+                DateTime f1 = (DateTime)Session["dt1"];
+                DateTime f2 = (DateTime)Session["dt2"];
+                ViewData["Fecha1"] = f1.ToShortDateString();
+                ViewData["Fecha2"] = f2.ToShortDateString();
+                ViewData["Corredor"] = Session["cr"];
+                reporte = ObtenerTotalesXCorredor((DateTime)Session["dt1"], (DateTime)Session["dt2"], (int)Session["cr"]);
+                if (reporte.Rows.Count <= 0)
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+            catch (Exception)
+            {
+                ViewData["Mensaje"] = "NO HA INGRESADO DATOS PARA EL REPORTE";
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+        }
+
+        public DataTable ObtenerTotalesXTarifa(DateTime f1, DateTime f2, int id)
+        {
+            string consulta;
+            DataTable tabla = new DataTable();
+            SqlConnection cn = new SqlConnection(cadena);
+            cn.Open();
+            try
+            {
+                #region Obtener Tabla              
+                SqlCommand cmd = new SqlCommand();
+                consulta = "";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@fechaDesde", f1);
+                cmd.Parameters.AddWithValue("@fechaHasta", f2);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = consulta;
+                cmd.Connection = cn;
+                SqlDataReader dr = cmd.ExecuteReader();
+                tabla.Load(dr);
+                dr.Close();
+                return tabla;
+                #endregion               
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        public ActionResult TotalesXTarifa()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult TotalesXTarifa(DateTime fecha1, DateTime fecha2, int corredor)
+        {
+            Session["dt1"] = fecha1;
+            Session["dt2"] = fecha2;
+            Session["cr"] = corredor;
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            reporte = ObtenerTotalesXTarifa(fecha1, fecha2, corredor);
+            if (reporte.Rows.Count <= 0)
+            {
+                ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+            }
+            else
+            {
+                ViewData["Resultado"] = "Cargado";
+            }
+            return View(reporte);
+        }
+
+        public ActionResult ImprimirTotalesXTarifa()
+        {
+            ViewData["Mensaje"] = null;
+            ViewData["Resultado"] = null;
+            try
+            {
+                DateTime f1 = (DateTime)Session["dt1"];
+                DateTime f2 = (DateTime)Session["dt2"];
+                ViewData["Fecha1"] = f1.ToShortDateString();
+                ViewData["Fecha2"] = f2.ToShortDateString();
+                ViewData["Corredor"] = Session["cr"];
+                reporte = ObtenerTotalesXTarifa((DateTime)Session["dt1"], (DateTime)Session["dt2"], (int)Session["cr"]);
+                if (reporte.Rows.Count <= 0)
+                {
+                    ViewData["Mensaje"] = "No hay datos registrados con esos filtros";
+                }
+                else
+                {
+                    ViewData["Resultado"] = "Cargado";
+                }
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+            catch (Exception)
+            {
+                ViewData["Mensaje"] = "NO HA INGRESADO DATOS PARA EL REPORTE";
+                return new Rotativa.ViewAsPdf(reporte);
+            }
+        }
+
     }
 }

@@ -99,7 +99,8 @@ namespace ConiferApp.Controllers
                         Nombre = lector["Nombre"].ToString(),
                         DNI = int.Parse(lector["DNI"].ToString()),
                         Legajo = legajo,
-                        Clave = lector["Clave"].ToString()
+                        Clave = lector["Clave"].ToString(),
+                        Rol = int.Parse(lector["Rol"].ToString())
                     };
                     return u;
                 }

@@ -1,0 +1,66 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "ImprimirBoletosPendientes";
+    Layout = "~/Views/Shared/_LayoutReport.cshtml";
+}
+<h2>Boletos pendientes</h2>
+<br />
+<h3>Fecha desde: @ViewData["Fecha1"] ------------  Fecha hasta: @ViewData["Fecha2"] -----------  Estado: @ViewData["Estado"]</h3>
+<br />
+
+@if (ViewData["Resultado"] != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                Fecha
+            </th>
+            <th>
+                Legajo
+            </th>
+            <th>
+                Coche
+            </th>
+            <th>
+                Línea
+            </th>
+            <th>
+                Cantidad adeudada
+            </th>
+            <th>
+                Cantidad saldada
+            </th>
+        </tr>
+        @foreach (DataRow item in Model.Rows)
+        {
+            <tr>
+                <td>
+                    @Convert.ToString(item["fecha"])
+                </td>
+                <td>
+                    @Convert.ToString(item["legajo"])
+                </td>
+                <td>
+                    @Convert.ToString(item["coche"])
+                </td>
+                <td>
+                    @Convert.ToString(item["linea"])
+                </td>
+                <td>
+                    @Convert.ToString(item["cantidad_adeudada"])
+                </td>
+                <td>
+                    @Convert.ToString(item["cantidad_devueltos"])
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@if (ViewData["Mensaje"] != null)
+{
+    @ViewData["Mensaje"]     
+}
+
+
